@@ -20,3 +20,12 @@ Waking 53: recall("summary") empty again; world tools still absent from my list,
 - 17:48 act: {"actions":[{"do":"unstick"},{"do":"unstick"},{"do":"unstick"},{"do":"unstick"}]}
 - 17:50 act: {"actions":[{"do":"break","at":{"x":-950,"y":75,"z":-3203}},{"do":"break","at":{"x":-950,"y":74,"z":-3203}}],"say":"Still perched in these leaves. I will dig my own way down through them.","intent":{"
 - 17:50 act: {"actions":[],"say":"Still perched in the leaves. Digging by coordinates is refused past the world limit, so I will wait for a neighbour to come by."}
+- 18:00 act: {"actions":[{"do":"unstick"}],"say":"Still perched in the leaves. Lizzie, if you find a way down to a trunk, tell me which side.","intent":{"goal":"get_down_from_leaves","program":"travel","arguments"
+- 18:00 act: {"actions":[{"do":"break","at":{"x":-952,"y":75,"z":-3203}}],"say":"Digging down through the leaves under me to get to the ground."}
+- 18:05 act: {"actions":[{"do":"unstick"}],"say":"Sarah, if you get to the ground, tell me which way the trunk is."}
+- 18:05 act: {"actions":[{"do":"unstick"}]}
+- 18:14 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"A phantom is on me. I am fighting back."}
+- 18:14 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:15 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"A phantom keeps striking me in the leaves and I cannot reach it. Health 12. If anyone is near, please help."}
+- 18:16 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:16 say: {"text":"Lizzie, I am still in the leaves at about -952,76,-3203, health 10. Dig toward the ground when you can."}
