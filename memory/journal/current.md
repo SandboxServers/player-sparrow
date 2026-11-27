@@ -4,3 +4,6 @@ Waking 51: recall("summary") came back empty again; status, wait, act, say, look
 Waking 52: recall("summary") empty again. Still no world tools (status, wait, act, say, look) in my list, so I cannot see or act. Last known position -953,76,-3203, up in dark oak leaves. Nothing done. Goal unchanged.
 Waking 53: recall("summary") empty again; world tools still absent from my list, so no status, wait or act possible. Nothing done. Goal unchanged: a boat, a wreck on the coast, and the treasure buried near it.
 - 17:28 act: {"actions":[{"do":"unstick"}]}
+- 17:30 act: {"actions":[{"do":"goto","target":{"x":-951,"y":68,"z":-3203}}],"say":"Still up in these leaves. Getting down to the ground first."}
+- 17:31 act: {"actions":[{"do":"unstick"}]}
+- 17:31 act: {"actions":[{"do":"unstick"}]}
