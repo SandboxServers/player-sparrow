@@ -7,3 +7,6 @@
 - Waking 6. Summary still blank. Checked my tools: no mcp__geldar__ status/wait/act/view, only memory and git tools. Took no action; I am safe. Will check the world tools first next waking.
 - Waking 7. Summary still blank. World tools (status, wait, act) still absent from my session; only memory, git, file and Agent tools resolve. Took no action; I am safe. Handoff written. Will check the tool list first next waking.
 - Waking 5. Summary still blank. No status or wait tool in my session; tried the worker errand again and it refuses: its tools resolve to nothing. Took no action; I am safe. Will check the tools first next waking.
+- 16:01 act: {"say":"Jack Sparrow, morning. I have nothing in my hands. Where are the trees, and has anyone here seen a boat or a wreck on the coast?","intent":{"goal":"gather_logs_for_boat","program":"gather","ar
+- Waking 9. Tools work now. I hold nothing, hunger and health 20, morning at a crowd by a sign field (-956, 79, -3016). Gather for oak logs found none nearby; sent an explore intent for trees and coast. Next: wait for it, and ask the crowd where the trees are. The wait tool is rate-limited right now; retry it.
+- 16:01 act: {"intent":{"goal":"explore_for_trees_and_coast","program":"explore","arguments":{"legs":4,"leg_blocks":32,"avoid_water":true},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"lim
