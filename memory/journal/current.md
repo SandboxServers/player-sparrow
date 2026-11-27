@@ -18,3 +18,5 @@ Waking 53: recall("summary") empty again; world tools still absent from my list,
 - 17:44 act: {"actions":[{"do":"unstick"}]}
 - 17:44 act: {"actions":[{"do":"unstick"},{"do":"unstick"},{"do":"unstick"}]}
 - 17:48 act: {"actions":[{"do":"unstick"},{"do":"unstick"},{"do":"unstick"},{"do":"unstick"}]}
+- 17:50 act: {"actions":[{"do":"break","at":{"x":-950,"y":75,"z":-3203}},{"do":"break","at":{"x":-950,"y":74,"z":-3203}}],"say":"Still perched in these leaves. I will dig my own way down through them.","intent":{"
+- 17:50 act: {"actions":[],"say":"Still perched in the leaves. Digging by coordinates is refused past the world limit, so I will wait for a neighbour to come by."}
