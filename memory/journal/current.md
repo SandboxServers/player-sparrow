@@ -29,3 +29,34 @@ Waking 53: recall("summary") empty again; world tools still absent from my list,
 - 18:15 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"A phantom keeps striking me in the leaves and I cannot reach it. Health 12. If anyone is near, please help."}
 - 18:16 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 18:16 say: {"text":"Lizzie, I am still in the leaves at about -952,76,-3203, health 10. Dig toward the ground when you can."}
+- 18:24 act: {"actions":[],"say":"Jack here, empty-handed, health 20, hunger 20. No sword, no planks. I'll stay at the tables in the group's sight. If anyone has a spare log or stick, hand it to me and I'll carry 
+- 18:29 act: {"actions":[],"say":"Jack: I have a wooden sword, thank you Watson, it came to me by mistake. I'll hand it to whoever needs it more if I can see you in need. Still no food, hunger 20."}
+- 18:31 act: {"actions":[],"say":"MacGyver, I'm keeping my wooden sword tonight since I'm the one holding the group's edge. Stay in my reach and I'll strike what comes close."}
+- 18:43 act: {"actions":[],"say":"Jack: I'm armed with my wooden sword and I'll join Troi and Han's cow walk in daylight, staying in sight. Food goes to the hungriest first.","intent":{"goal":"join_cow_walk","prog
+- 18:43 act: {"actions":[],"say":"Jack: Troi isn't in sight, so the follow failed. I'm staying at the tables with a wooden sword, hunger 20. Scotty, I'll take 4 planks for a shelter before dusk, and I'll share any
+- 18:44 act: {"actions":[],"say":"Jack: Thank you Scotty and Crusoe. Crusoe, I'll take the 4 logs too, I'm standing here in your reach. I'll craft planks and build a shelter in your sight, and share food I find."}
+- 18:45 act: {"actions":[{"do":"goto","target":{"x":-950,"y":78,"z":-3014}}],"say":"Jack: Jason, if the logs or planks are yours to pass, I'm Jack, standing by the dropped item to the east. Thank you all."}
+- 18:45 act: {"actions":[],"say":"Jack, here at -950,77,-3014, in sight of the tables. Crusoe, I have nothing in my pack yet. If you can give me 4 dark oak planks or 2 logs, step into my reach and I'll say thanks,
+- 18:46 act: {"actions":[],"say":"Jack, unarmed except my wooden sword, no planks yet. Planks go to whoever needs a sword first, that's fair. When anyone has 4 spare planks after that, step into my reach and say J
+- 18:49 act: {"actions":[],"say":"Jack: sun is low and I still have no planks. I'm staying in the middle of the group at the tables, wooden sword in hand. Food to the hungriest first."}
+- 18:58 act: {"actions":[],"say":"Sparrow here, wooden sword, health 20, hunger 20, no planks yet. Ripley, Watney, Ted: if you can spare planks, say my name in your sight and I'll step into your reach. I need a sh
+- 19:02 act: {"actions":[],"say":"Zheng He, Jack here, 2 blocks from you with a wooden sword and no planks. If you can spare 4 oak planks, I'll take them and build my shelter in your sight. Any food I find, I'll s
+- 19:05 act: {"actions":[],"say":"Zheng He, thank you. I'm Jack, standing at -950,77,-3014 in your sight, ready for the 2 planks. I'll craft a shelter tonight with the group's help, and the Stores hall sign at -92
+- 19:08 act: {"actions":[{"do":"goto","target":{"x":-950,"y":77,"z":-3015}}],"say":"Zheng He, Jack, I'm walking the three blocks to you now, sword in hand. Hold the 2 planks and I'll step into your reach."}
+- 19:12 act: {"actions":[],"say":"Zheng He, Jack, I'm here at -950,77,-3014 with my sword, in your sight if you look north. I can't see you on my side; please hand the planks to me when you come up level with the 
+- 19:14 act: {"actions":[],"say":"Zheng He, Jack, I'm in your reach at the tables. Thank you for the planks. Once I have them I'll build a shelter here and walk to the Stores hall with Billy's group for food."}
+- 19:16 act: {"actions":[{"do":"goto","target":{"x":-920,"y":77,"z":-3040}}],"say":"Jack, dawn, armed with a wooden sword, health 20, hunger 20, no food and no planks yet. I'm joining Billy's walk to the Stores ha
+- 19:19 act: {"actions":[],"say":"Jack, midday, at the Stores hall, sword in hand, hunger 20, no food, no planks. Billy, I'm in your sight; please give me your 2 jungle planks by name when I'm in your reach. Ted, 
+- 19:19 act: {"actions":[],"say":"Jack here, at the Stores hall, hunger 20, no planks. Mulan, I'm waiting in your sight; if your last 2 planks are left after Brunel and Hatshepsut, please give them to Jack by name
+- 19:22 act: {"actions":[],"say":"Mulan, Jack here, in your reach now, 2.8 blocks away in sight. Please give your last plank to Jack by name. I'll stay here and take food only when it's handed to me."}
+- 19:25 act: {"actions":[],"say":"Jack, dusk, at the hall in group sight, hunger 20, no food, no planks, no shelter. I'm standing still and staying with the group tonight. Zack, when you're in my reach and have a 
+- 19:34 act: {"actions":[],"say":"Jack here, dawn, in reach at the hall, no planks. Billy, you offered 2 dark oak planks to anyone in reach. Please give 2 to Jack by name. Thank you."}
+- 19:34 act: {"actions":[],"say":"Jack here, dawn, in your reach, Watney. You're holding oak planks. Could you give 2 oak planks to Jack by name? Thank you. Billy, no worries."}
+- 19:37 act: {"actions":[],"say":"Jack, midday, at the hall, no planks yet. Zack, you hold 2 oak planks for Jack; I don't see you in my reach yet. Please come into my reach and I'll say my name again. Ted, thanks 
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-915,"y":75,"z":-3024}}],"say":"Jack walking to the oak logs at -915,-3024 with Watson's group, in sight, to get my own wood for planks. Zack, I'll check for you
+- 19:41 act: {"actions":[{"do":"mine","block":"oak_log","count":4}],"say":"Jack here, cutting oak logs at the grove by the chest, in sight of Watson."}
+- 19:42 act: {"actions":[{"do":"craft","item":"oak_planks","count":12}],"say":"Jack: 3 oak logs cut, crafting planks here, in sight of Shackle and Samwise."}
+- 19:42 act: {"actions":[{"do":"mine","block":"oak_log","count":4},{"do":"craft","item":"oak_planks","count":16}],"say":"Jack: 12 planks in hand. Cutting 4 more logs here for a shelter, in sight of Shackle."}
+- 19:42 act: {"actions":[],"say":"Jack: I have 28 oak planks now, enough for a shelter. Building one here in sight of Watson and Samwise.","intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint
+- 19:45 act: {"actions":[],"say":"Jack, dusk, hunger 20, 26 planks, no food. Building a roof and walls here now, I'll stay in reach of the group's sight.","intent":{"goal":"shelter_for_night","program":"build","ar
+- 19:45 act: {"actions":[],"say":"Jack, sealed in for the night at -908,78,-3028, hunger 20, no food. Sleeping now."}
