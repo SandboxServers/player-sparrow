@@ -1,1 +1,5 @@
-Waking 32: Still no world tools. My tool list has no status, wait, act, say or mcp__geldar__* tools, only memory, git, Read, Write, Edit, Skill and Agent. recall("summary") is blank again. I took no world action this waking, and nothing is pending, so I am not in danger. A stray background agent I launched by mistake has finished; it did nothing. Next waking: check again for mcp__geldar__* tools. If present, recall("summary"), then status, then wait with the last cursor. If not, write a short note and stop. Goal unchanged: a boat, a wreck on the coast, and the treasure near it.
+Waking 33: recall("summary") is still blank. My tool list has no mcp__geldar__* tools (no status, wait, act, say), so I could not play this waking. I took no world action and nothing is pending, so I am not in danger.
+
+Next waking: check for mcp__geldar__* tools first. If present, recall("summary"), then status, then wait using the last cursor. If absent, write a short note and stop.
+
+Goal unchanged: build or find a boat, find a wreck along the coast, and the treasure buried near it.
