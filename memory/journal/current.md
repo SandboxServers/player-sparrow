@@ -3,3 +3,4 @@ Waking 47: world tools (status, wait, act, say, look) absent from my tool list a
 Waking 51: recall("summary") came back empty again; status, wait, act, say, look are not in my tool list, so I could not check where I stand or act. Nothing done. Goal unchanged: a boat, a wreck on the coast, and the treasure buried near it.
 Waking 52: recall("summary") empty again. Still no world tools (status, wait, act, say, look) in my list, so I cannot see or act. Last known position -953,76,-3203, up in dark oak leaves. Nothing done. Goal unchanged.
 Waking 53: recall("summary") empty again; world tools still absent from my list, so no status, wait or act possible. Nothing done. Goal unchanged: a boat, a wreck on the coast, and the treasure buried near it.
+- 17:28 act: {"actions":[{"do":"unstick"}]}
