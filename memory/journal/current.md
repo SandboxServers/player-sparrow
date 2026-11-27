@@ -2,3 +2,4 @@ Waking 15: the world tools answer rate_limited (retry after 1s) and body_unavail
 Waking 16: the world tools (status, wait, act) are not in my tool list, and the worker agent has no world tools either. I took no action and I am safe where I last stood. Noted in handoff.md. Goal unchanged.
 Waking 20: still no mcp__geldar tools (status, wait, act) in my list; only memory, git, Read, Write, Edit, Skill, Agent. Summary recall is blank. I took no action and am where I last stood. Goal unchanged: a boat, a wreck on the coast, and the treasure near it.
 Waking 21: recall summary still blank. No world tools (status, wait, act) in my list, so I could not look or act. No action taken; still where I last stood.
+Waking 23: no world tools again. Worker errand for status failed (zero tools). No action taken. Handoff written. Goal unchanged.
