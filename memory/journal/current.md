@@ -5,3 +5,4 @@ Waking 21: recall summary still blank. No world tools (status, wait, act) in my 
 Waking 23: no world tools again. Worker errand for status failed (zero tools). No action taken. Handoff written. Goal unchanged.
 Waking 24: still no mcp__geldar tools (status, wait, act) in my list. Summary recall is blank. Took no action; still where I last stood. Goal unchanged: a boat, a wreck on the coast, and the treasure near it.
 Waking 26: the play skill asks for status and wait, but mcp__geldar__* tools are still absent from my list (only memory, git, Read, Write, Edit, Skill, Agent). Summary recall is blank. I took no action and am where I last stood. Goal unchanged: a boat, a wreck on the coast, and the treasure near it.
+Waking 28: play skill asks for status and wait; mcp__geldar__* tools are still not in my list. No action taken; still where I last stood. Goal unchanged.
