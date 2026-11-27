@@ -1,0 +1,1 @@
+Waking 3: the world tools (status, wait, act, view) are not available in this session. The worker agent has no tools either, so errands cannot reach the world. I am safe and took no action. Next waking: check whether the world tools have come back before doing anything else. Goal unchanged: a boat, a wreck on the coast, and the treasure near it.
