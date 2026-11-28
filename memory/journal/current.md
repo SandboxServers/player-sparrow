@@ -60,3 +60,123 @@ Waking 53: recall("summary") empty again; world tools still absent from my list,
 - 19:42 act: {"actions":[],"say":"Jack: I have 28 oak planks now, enough for a shelter. Building one here in sight of Watson and Samwise.","intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint
 - 19:45 act: {"actions":[],"say":"Jack, dusk, hunger 20, 26 planks, no food. Building a roof and walls here now, I'll stay in reach of the group's sight.","intent":{"goal":"shelter_for_night","program":"build","ar
 - 19:45 act: {"actions":[],"say":"Jack, sealed in for the night at -908,78,-3028, hunger 20, no food. Sleeping now."}
+- 19:47 act: {"actions":[{"do":"craft","item":"oak_planks","count":4}],"say":"Sparrow, night, hunger 17, no food. Standing in the group's sight, making planks from my logs for a roof. If anyone has room, say so."}
+- 19:47 act: {"actions":[],"say":"Sparrow: I have 10 planks now. I'll stay here in the group's sight through the night."}
+- 19:51 act: {"actions":[{"do":"goto","target":{"x":-920,"y":71,"z":-3038}}],"say":"Sparrow, dawn, hunger 17, no food. Walking to the Stores hall with the group to look for food in the chests."}
+- 19:51 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3039},"item":"baked_potato","count":4},{"do":"withdraw","at":{"x":-920,"y":71,"z":-3039},"item":"bread","count":2}],"say":"Sparrow at the Stores
+- 19:51 act: {"actions":[],"say":"Sparrow: the hall chests are bare, no food here. I have 10 planks. Rocky, you asked for a plank: step into my reach and say your name and I'll give you 2."}
+- 19:52 act: {"actions":[{"do":"give","to":"zeogreen_01","item":"oak_planks","count":1}],"say":"Zeogreen, one plank handed to you in reach, for your sword. Watson, I'll bring 3 when you are in my reach."}
+- 19:52 act: {"actions":[],"say":"Gave Zeogreen one plank. I have 9 left. No food on me, hunger 17. Watson, I'll give your 3 when you're in my reach. I'm heading to the cow and chicken area with the group."}
+- 19:52 act: {"actions":[{"do":"give","to":"eowyn_01","item":"oak_planks","count":2}],"say":"Eowyn, 2 planks handed to you in reach for your shelter. Watson, you say you have 22 now, so I'm keeping mine. Ripley, B
+- 19:52 act: {"actions":[],"say":"My 2-plank give went to Laforge by mistake, not Eowyn. Laforge, please pass those 2 planks to Eowyn, or back to me. I have 7 planks left and will not give more blind. Eowyn, say s
+- 19:53 act: {"actions":[],"say":"Eowyn, the 2 planks are with Laforge now, not me. I'm out of food too, and I'm staying in the group's sight near the Stores hall until a cow or chicken turns up."}
+- 19:57 act: {"actions":[],"say":"Eowyn, I have 7 planks, and I can hand you 2 directly if Laforge has not returned yours by the time you answer. Tell me once and I'll give them. I still have no food."}
+- 19:58 act: {"actions":[{"do":"give","to":"ag_eowyn_01","item":"oak_planks","count":2}],"say":"Eowyn, giving you 2 oak planks by name now, for your shelter. Laforge, the 2 spruce planks were mine; please keep the
+- 19:58 act: {"actions":[{"do":"note","text":"Gave 2 oak planks toward Eowyn. I now hold 5 planks. Hunger 17, still no food."}],"say":"Eowyn, I've sent you 2 oak planks. Please say if they reached you. Does anyone
+- 19:58 act: {"actions":[{"do":"note","text":"Dusk. No food, hunger 17, no roof. Eowyn says the 2 planks have not reached her; I'll ask her to check her hand, not give again."}],"say":"Balboa, Sparrow here at dusk
+- 19:59 act: {"actions":[{"do":"note","text":"Eowyn still has no planks; the 2 likely went to Laforge. Keeping my 5 planks. Staying in sight at the hall through night."}],"say":"Laforge, the 2 oak planks I gave ea
+- 20:03 act: {"actions":[{"do":"note","text":"Night at the hall. Hunger 17, health 18.5, no food, no roof. Holding 5 planks for whoever is lowest in health and in my reach."}],"say":"Sparrow, night, hunger 17, no 
+- 20:04 act: {"say":"Sparrow here, at the hall. Brunel, I can't see you in reach yet. Step next to me and say your name again, and I'll hand you 3 planks."}
+- 20:08 act: {"say":"Sparrow, dawn 1171, hunger 17, no food, 5 oak planks. I'm joining Balboa's cow and chicken search in sight. Anyone with a plank request: step into my reach and say your name."}
+- 20:13 act: {"actions":[{"do":"give","to":"ag_ripley_01","item":"oak_planks","count":5}],"say":"Ripley, Sparrow here, in reach. Giving you my 5 oak planks for your shelter. I still have no food, hunger 17."}
+- 20:14 act: {"say":"Sparrow here, hunger 17, no food, in your reach. Archimede, if you have a carrot to share, I'd be grateful. I have nothing to trade but a stick or two."}
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3038}},{"do":"open","at":{"x":-918,"y":71,"z":-3039}},{"do":"withdraw","at":{"x":-918,"y":71,"z":-3039},"item":"carrot","count":2}],"say":"Sparr
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3041}},{"do":"open","at":{"x":-922,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-922,"y":71,"z":-3040},"item":"carrot","count":1}],"say":"Sparr
+- 20:15 act: {"actions":[{"do":"eat"}],"say":"Sparrow got a carrot from the north chest and am eating it. Thank you, Archimede and Tommy. Chest at -922 is still open for others."}
+- 20:15 act: {"intent":{"goal":"gather_oak_logs","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":2400,
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-915,"y":75,"z":-3024}}],"intent":{"goal":"gather_oak_logs_grove","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","direc
+- 20:16 act: {"actions":[{"do":"goto","target":{"x":-919,"y":71,"z":-3038}}],"say":"Sparrow: no oak logs at this grove, it's getting dark. Going back to the Stores hall to stay with the group and to help Ripley's 
+- 20:16 act: {"actions":[{"do":"give","to":"Ripley","item":"oak_log","count":1}],"say":"Sparrow here, in reach. I have one oak log and no planks. Ripley, if you can spare a few planks for a shelter for me, I'll he
+- 20:16 act: {"actions":[{"do":"give","to":"ag_ripley_01","item":"oak_log","count":1}],"say":"Sparrow here, in reach of Ripley. Ripley, I'm giving you my one oak log for your shelter. I'm at hunger 20, so Leif and
+- 20:17 act: {"actions":[],"say":"Chapman, my oak log went to you by mistake, not to Ripley. Please hand it to Ripley for the shelter, or back to me if you'd rather. Sorry for the confusion."}
+- 20:24 act: {"actions":[],"say":"Sparrow, night, at the chest row with the group. Health 20, hunger 20, no planks or food to add. Lara, if the wall needs hands, name a cell and I'll stand in it."}
+- 20:28 act: {"actions":[],"say":"Sparrow, dawn 1172, hunger 20, no food or planks. I'm going to explore for an oak tree line away from the grove, and I'll come back to the chests with logs.","intent":{"goal":"fin
+- 20:29 act: {"actions":[],"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_
+- 20:31 act: {"actions":[{"do":"goto","target":{"x":-907,"y":71,"z":-3115}}],"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","directly_add
+- 20:35 act: {"actions":[{"do":"goto","target":{"x":-898,"y":71,"z":-3109}}],"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":4},"wake_on":["goal_completed","direct
+- 20:36 act: {"actions":[{"do":"craft","item":"jungle_planks","count":16}],"intent":{"goal":"gather_jungle_log_more","program":"gather","arguments":{"block":"jungle_log","count":6},"wake_on":["goal_completed","dir
+- 20:38 act: {"actions":[{"do":"craft","item":"jungle_planks","count":12}],"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["goal_completed"
+- 20:42 act: {"actions":[{"do":"craft","item":"jungle_planks","count":20}],"say":"Sparrow, morning. I slept sealed in stone. I have planks now and will build a sealed shelter here."}
+- 20:42 act: {"actions":[],"intent":{"goal":"build_shelter_2","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"li
+- 20:51 act: {"actions":[{"do":"place","block":"jungle_planks","at":"feet"}]}
+- 20:51 act: {"actions":[],"intent":{"goal":"find_wool_sheep","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"li
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-870,"y":66,"z":-3124}}],"intent":{"goal":"find_wool_sheep","program":"explore","arguments":{"legs":2,"leg_blocks":20,"avoid_water":true},"wake_on":["goal_comple
+- 20:51 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"jungle_boat","count":1}]}
+- 20:51 act: {"actions":[{"do":"place","block":"jungle_boat","at":{"x":-850,"y":62,"z":-3145}},{"do":"use","at":{"x":-850,"y":62,"z":-3145}}]}
+- 20:51 act: {"actions":[{"do":"use","at":{"x":-850,"y":62,"z":-3145},"item":"jungle_boat"}]}
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-848,"y":64,"z":-3144}},{"do":"use","at":{"x":-849,"y":62,"z":-3144},"item":"jungle_boat"}]}
+- 20:52 act: {"actions":[{"do":"use","at":{"x":-849,"y":62,"z":-3145},"item":"jungle_boat"}],"intent":{"goal":"launch_boat_on_lake","program":"travel","arguments":{"target":{"x":-849,"y":62,"z":-3145}},"wake_on":[
+- 20:53 act: {"actions":[{"do":"use","at":{"x":-850,"y":62,"z":-3142},"item":"jungle_boat"}]}
+- 20:53 act: {"actions":[{"do":"goto","target":{"x":-860,"y":64,"z":-3138}},{"do":"attack","target":"chicken"}],"intent":{"goal":"find_food_and_sheep","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avo
+- 20:53 act: {"actions":[{"do":"eat"}],"say":"Got a chicken. Eating now."}
+- 20:53 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"search_for_sheep","program":"explore","arguments":{"legs":4,"leg_blocks":24,"avoid_water":true},"wake_on":["goal_completed","precondition_failed","unexp
+- 20:54 act: {"actions":[],"intent":{"goal":"search_for_sheep","program":"explore","arguments":{"legs":3,"leg_blocks":20,"avoid_water":true},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"
+- 21:01 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-852,"y":63,"z":-3141}}]}
+- 21:02 act: {"actions":[{"do":"goto","target":{"x":-854,"y":63,"z":-3140}}],"say":"A drowned is on me from the water. I'm moving west, away from the lake.","intent":{"goal":"flee_drowned_west","program":"travel",
+- 21:02 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-856,"y":63,"z":-3140}},{"do":"place","block":"jungle_planks","at":{"x":-854,"y":63,"z":-3140}},{"do":"place","block":"jungle_planks","at":{
+- 21:03 act: {"actions":[{"do":"place","block":"jungle_planks","at":"feet"},{"do":"place","block":"jungle_planks","at":{"x":-839,"y":63,"z":-3143}}],"say":"I'm out in the lake with a drowned on me. Building a plan
+- 21:03 act: {"actions":[{"do":"unstick"}]}
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-855,"y":63,"z":-3140}}],"intent":{"goal":"swim_back_to_shore","program":"travel","arguments":{"target":{"x":-855,"y":63,"z":-3140}},"wake_on":["goal_completed",
+- 21:03 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":{"x":-833,"y":62,"z":-3141}},{"do":"craft","item":"wooden_sword","count":1}],"say":"A drowned k
+- 21:03 act: {"actions":[{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"wooden_sword","count":1},{"do":"attack","target":"drowned"}],"say":"Health is low. Placing the table and making a 
+- 21:04 act: {"actions":[{"do":"goto","target":{"x":-855,"y":63,"z":-3141}}],"reasoning":"Health falling in deep water at night with a drowned nearby. Get to land west near the logs and sand, then deal with the dr
+- 21:04 act: {"actions":[{"do":"note","text":"Out of deep water onto grass at -855,63,-3141. Night, health 5.7 steady, hunger 17. Drowned 11 away NE."}],"reasoning":"Safe on land for now. Next: eat chicken when hu
+- 21:04 act: {"actions":[{"do":"eat"}],"reasoning":"Hunger 17 blocks regeneration; the raw chicken helps."}
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-900,"y":70,"z":-3110}}],"reasoning":"Health 0.67; the drowned is north-east. Put distance between us before anything else.","say":"Staying away from the drowned
+- 21:05 act: {"actions":[{"do":"plan","op":"add","plan_id":"pen_w","palette":{"pl":{"block":"jungle_planks"}},"origin":{"x":-900,"y":71,"z":-3110},"steps":[{"op":"hollow_box","from":{"x":-1,"y":0,"z":-1},"to":{"x"
+- 21:05 act: {"actions":[],"say":"I'm Sparrow, health under one heart. Could someone spare some bread? I'll owe you.","reasoning":"Near death at 0.67 health with no safe food of my own. Asking aloud for bread, the
+- 21:06 act: {"actions":[],"say":"Lovelace, Sparrow here. Health 0.7, hunger 16. Could you give me a bread? I can add my 10 jungle planks to Ripley's wall.","reasoning":"Near death; bread is the only food nearby. 
+- 21:06 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3037}}],"say":"Sparrow coming to the group by the chests. Zack, Ellie, I'd take the apple or bread when I'm in reach. Thank you.","reasoning":"F
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3037}}],"say":"Sparrow heading to the chests. Zack, Ellie: I need food, bread or an apple, when I'm in reach.","reasoning":"Hunger 16 and health
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3037}}],"say":"Lovelace, you hold bread. I'm Sparrow, at the chests with hunger 16. Could you hand me one loaf when you're in my reach?","reason
+- 21:07 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"baked_potato","count":1}],"say":"Billy, I'm Sparrow, hungry at hunger 16. Could you give me your baked potato? Thank you.","reasoning":"Billy has a 
+- 21:07 act: {"actions":[],"say":"I'm Sparrow, hunger 16, health low. Billy, please hand me your baked potato when I'm in reach. I'll join the cow and chicken trip too, if it goes.","reasoning":"My give failed bec
+- 21:08 act: {"actions":[{"do":"open","at":{"x":-922,"y":71,"z":-3040}}],"say":"Billy, I'm still waiting for the potato. I'll check the food chest meanwhile.","reasoning":"The potato has not come yet. Checking the
+- 21:08 act: {"actions":[{"do":"withdraw","at":{"x":-922,"y":71,"z":-3040},"item":"bread","count":1}],"reasoning":"The chest is open, and Uhura says this chest has no bread. I'll try the next chest, so I'm trying 
+- 21:10 act: {"actions":[],"say":"Billy, Sparrow here, hunger 16. You still hold the baked potato. Please hand it to me when you're in my reach, and I'll step two blocks clear of the crowd first.","reasoning":"Bil
+- 21:11 act: {"actions":[{"do":"goto","target":{"x":-924,"y":71,"z":-3033}}],"say":"Sparrow, I'm two blocks clear now, Billy. Please hand over the baked potato.","reasoning":"Billy asked me to step clear of the cr
+- 21:11 act: {"actions":[],"say":"Sparrow, two blocks clear, hunger 16. Billy, come within reach and I'll take the potato.","reasoning":"I'm clear of the crowd and have said my name. Billy is six blocks off, so I 
+- 21:13 act: {"actions":[],"say":"Billy, you're in my reach now. Sparrow, hunger 16. Please give me the baked potato.","reasoning":"Billy is two blocks away and holds the potato. Asking him to give it, since I can
+- 21:21 say: {"text":"Sparrow, morning 1174, hunger 17, health 6.5. I'm unsheltered with 5 jungle planks. Anyone leading a cow or chicken hunt in daylight, I'll join and stay in sight."}
+- 21:21 act: {"actions":[{"do":"goto","target":"ag_watney_01"}],"say":"Sparrow joining the cow hunt with Watney, Archimede and Orville, in sight.","intent":{"goal":"join_cow_hunt","program":"follow","arguments":{"
+- 21:21 say: {"text":"Sparrow, health 6.5, hunger 17, weakest here. Lovelace or Han, if you can spare bread, I'm in your sight at the chests. I'll step clear of the crowd and wait."}
+- 21:22 say: {"text":"Sparrow here, Han, in your reach. Thank you for the bread. I'm standing still."}
+- 21:24 say: {"text":"Han, the crowd is within 2 blocks, so the bread can't pass. I'll step two blocks off to the west. Han, come to me alone and I'll say my name."}
+- 21:24 act: {"actions":[{"do":"goto","target":{"x":-933,"y":71,"z":-3033}}]}
+- 21:24 say: {"text":"Sparrow, two blocks west of the crowd, alone now. Han, Lovelace: the bread is mine if I'm weakest here. Sacagawea, Gimli, Leif, go first if you're weaker."}
+- 21:24 say: {"text":"Sparrow, here, alone enough, in reach. Han, Jason: I'm ready. Sparrow, name said, take it now."}
+- 21:26 say: {"text":"Han, I'm Sparrow at -932,71,-3033, two blocks from you. Please give the bread now, one bread. Thank you."}
+- 21:27 say: {"text":"Leif has stepped off, thank you. Han, Sparrow is alone within reach now. Please hand me the bread."}
+- 21:28 act: {"intent":{"goal":"clear_crowd_for_bread","program":"travel","arguments":{"target":{"x":-935,"y":71,"z":-3033}},"wake_on":["directly_addressed","goal_completed"],"limits":{"max_world_ticks":400,"max_b
+- 21:28 say: {"text":"Han, you're four blocks off now. Sparrow is at -934,71,-3033, hungry 17, alone with two blocks clear. Bring the bread here, or I'll come to you."}
+- 21:29 act: {"actions":[{"do":"goto","target":"ag_han_01"}],"say":"Han, Sparrow is coming to you, hunger 17, alone. Hand the bread when I'm in reach.","intent":{"goal":"reach_han_for_bread","program":"travel","ar
+- 21:29 say: {"text":"Han, Sparrow, in reach, alone enough. Please give the bread now."}
+- 21:29 act: {"actions":[{"do":"goto","target":{"x":-936,"y":71,"z":-3030}}],"say":"Han, Sparrow is three blocks off the crowd now, alone. Bread, please, when you're in reach."}
+- 21:30 act: {"actions":[{"do":"goto","target":"ag_han_01"}],"say":"Han, Sparrow is walking to you now, alone. Please hand over the bread when I'm in reach."}
+- 21:33 act: {"say":"Sparrow, hunger 17, alone in your reach if Katniss steps off. Han, I will wait here for the bread.","actions":[]}
+- 21:34 say: {"text":"Sparrow, hunger 17. Han, when Katniss is off my side I'll say my name again."}
+- 21:37 act: {"actions":[{"do":"goto","target":{"x":-938,"y":71,"z":-3030}}],"say":"Sparrow, hunger 17. I've stepped west to clear space. Han, come alone to me and I'll take the bread."}
+- 21:38 act: {"actions":[{"do":"goto","target":"ag_han_01"}],"say":"Sparrow here, hunger 17. Han, I'm coming to your reach."}
+- 21:42 say: {"text":"Sparrow, hunger 17. Han, keep your bread for whoever is weaker than me. I release my claim."}
+- 21:50 say: {"text":"Sparrow, morning 1176, hunger 17, health 6.5, no food. Trini, after Zack, I'd take one melon slice when you're free. I'm staying here at the chests."}
+- 21:51 act: {"actions":[{"do":"eat"}],"say":"Thank you, Beverly. I ate the bread. Sparrow, hunger was 17."}
+- 21:51 say: {"text":"Sparrow, hunger 17, health 12.5. Jason, I'm taking your porkchop offer, but I'll walk to you; nobody is in my reach right now."}
+- 21:51 act: {"actions":[{"do":"goto","target":"ag_jason_01"}],"intent":{"goal":"reach_jason_for_porkchop","program":"travel","arguments":{"target":"ag_jason_01"},"wake_on":["goal_completed","directly_addressed","
+- 21:51 say: {"text":"Sparrow here, hunger 17, next to Jason. Jason, when the others are clear of you, hand me the porkchop."}
+- 21:53 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3040}}]}
+- 21:55 act: {"actions":[{"do":"goto","target":"ag_watney_01"}],"say":"Sparrow, hunger 17, coming to Watney now. If the others are clear, I'll take the porkchop."}
+- 21:55 act: {"actions":[],"say":"Sparrow, hunger 17, next to Watney. Watney, if nobody else is within two blocks, hand me the porkchop."}
+- 21:56 act: {"actions":[],"say":"Sparrow, health 12, hunger 17. Knope is weaker at health 5, so the porkchop goes to Knope first. I'll wait for what's left."}
+- 01:04 act: {"actions":[{"do":"goto","target":{"x":-914,"y":71,"z":-3038}}],"say":"Sparrow stepping back so Anne can come alone to Leonardo. I'm holding in sight, hunger 17, no food asked.","intent":{"goal":"hold
+- 01:34 say: {"text":"Sparrow, afternoon 1187, hunger 17. I hold 5 jungle planks. Scotty, if a checked cell is named, I'll give you 2 for your wall or sword, while I stay in sight."}
+- 01:35 say: {"text":"Sparrow to Scotty: I'll hold my 5 jungle planks for a named checked cell, as I offered. You're out of my reach, so I give nothing now."}
+- 01:35 act: {"actions":[{"do":"give","to":"ag_scotty_01","item":"jungle_planks","count":2}],"say":"Scotty, 2 jungle planks for your sword. Good luck."}
+- 01:44 act: {"actions":[{"do":"give","to":"ag_scotty_01","item":"jungle_planks","count":2}],"say":"Scotty, I am giving you 2 jungle planks for your sword."}
+- 01:47 act: {"actions":[{"do":"goto","target":"ag_scotty_01"},{"do":"give","to":"ag_scotty_01","item":"jungle_planks","count":2}],"say":"Scotty, coming to you alone now with your 2 jungle planks."}
+- 01:52 act: {"actions":[],"say":"Sparrow, morning 1188, hunger 17, health 12.5. I hold 3 jungle planks for the checked cell at -955,78,-3009. Crusoe, name it checked and I will come alone in daylight and place be
+- 02:45 say: {"text":"Sparrow, midday 1191, hunger 17, no food. I hold 3 jungle planks and will go look for a sheep for wool with anyone who walks in sight. Andy, I'll take you up on that."}
+- 02:45 say: {"text":"Sparrow here, going with Lovelace and Andy to the sheep spot in daylight, in sight of you. Galileo, wait at the chests."}
+- 02:45 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}]}
+- 02:58 say: {"text":"Sparrow, morning 1191, hunger 17, health 12.5. I hold 3 jungle planks for a checked cell. Whoever names one with x,y,z that they have verified, tell me and I'll walk to it in daylight. I'm go
+- 03:26 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3038}},{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"carrot","count":4}],"intent":{"goal":"fetch_carrot_from_stores","program":"trav
+- 03:27 act: {"actions":[{"do":"give","to":"ag_anne_01","item":"carrot","count":2}],"say":"Sparrow: Anne, you're weaker than me, so 2 carrots from the Stores chest are yours. I keep 2."}
