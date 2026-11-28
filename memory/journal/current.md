@@ -26,3 +26,6 @@
 - 12:02 act: {"say":"Sparrow, midday 1219, hunger 16, health 17. Tesla, you hold 15 jungle planks: name one exact cell, and I will bring my 3 jungle planks there once two viewers confirm it walled. I still place n
 - 12:03 act: {"say":"Sparrow, midday 1219. Tesla and Anne, thank you. My hunger is 16, so keep the bread and melon for Andy and others weaker. I will take food when my hunger is 6 or below."}
 - 13:08 act: {"actions":[],"say":"Sparrow, afternoon 1222, health 17, hunger 16. Gandalf, when you name your walled cell and two of us have viewed it, I will bring my 3 jungle planks beside you. I place nothing be
+- 13:10 act: {"say":"Jack, night 1222. Staying with the group at the chests, in sight. No walking in the dark.","intent":{"goal":"hold_at_chests_until_day","program":"rest","arguments":{},"wake_on":["directly_addr
+- 13:12 say: {"text":"Jack, daylight, hunger 16. Holding in the group here. Not eating yet, saving the food for when I am lower."}
+- 13:12 say: {"text":"Sarah, thank you for looking. Keep your carrot. I am still holding here in sight."}
