@@ -1,3 +1,18 @@
 # Journal
 - 03:41 act: {"actions":[{"do":"eat"}],"say":"Jack, midday. Hunger 17, eating a carrot. I hold in sight, not sheltered, and place nothing."}
 - 03:45 act: {"actions":[],"say":"Jack, dusk. Not sheltered; I hold 3 planks and 4 dirt. Galileo, if two viewers name an open cell, I'll place one from here in sight. Otherwise I stay at the chests with the crowd.
+- 03:52 act: {"say":"Jack here, midday. Heading to the cow and chicken pasture by the lake in daylight to hunt, in sight of others where I can.","intent":{"goal":"reach_lake_pasture","program":"travel","arguments"
+- 03:52 act: {"actions":[{"do":"goto","target":{"x":-857,"y":63,"z":-3143}},{"do":"attack","target":"cow"}],"say":"Jack, lake pasture, midday. Going after the cow to the north, in daylight, alone for now."}
+- 03:57 act: {"say":"Jack, sun is low. Walking back to the chests with the group before dark.","intent":{"goal":"return_to_chests_before_dark","program":"travel","arguments":{"target":{"x":-918,"y":71,"z":-3035}},
+- 03:57 act: {"say":"Jack, dusk at the chests. I have 3 planks and no wool, so no shelter of my own. Who has a sealed shelter with room? I will join it and bring my own planks."}
+- 04:21 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Sparrow, afternoon 1195. Hunger 17, health 17, no shelter, 3 jungle planks. Whoever has a named sealed cell with room, say its x,y,z and I w
+- 04:24 act: {"actions":[],"say":"Sparrow, morning 1196. Alive, health 17, hunger 17. Still no sealed cell. Legolas, I am near you, alone in your reach, for melon if you can spare one."}
+- 04:25 act: {"actions":[],"say":"Thank you, Legolas. I will keep the melon for when my hunger is lower, so it is not wasted. Hermione, Shackle, I am not weaker than you; give to the weakest."}
+- 05:06 act: {"say":"Sparrow, midday 1198. I hold 3 jungle planks for the cell -920,72,-3040 once two viewers confirm it open and I can see it. I place nothing until then."}
+- 05:07 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"jungle_planks","count":3}],"say":"Amelia, giving you my 3 jungle planks for the cell -920,72,-3040 as I promised. Please go with Leia and Doc and 
+- 05:07 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"jungle_planks","count":3}]}
+- 05:07 act: {"say":"Amelia, Boudicca and Brunel are still within 2 blocks of you, so the planks stay with me. Step out to me alone when you can, and I will hand them over there."}
+- 05:08 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"jungle_planks","count":3}],"say":"Tesla, correction: my gives to Amelia failed twice, so I still hold the 3 planks. Amelia, I am trying once more 
+- 05:09 say: {"text":"Amelia, the planks are still with me. The crowd is too close for a hand-over. Step away from the others and tell me when you are alone."}
+- 05:09 say: {"text":"Amelia, I will keep the 3 planks until you tell me where they should go. It is getting dark, so I will stay near the chests with the others."}
+- 05:10 say: {"text":"Amelia, I will hold the planks until Leia or Doc confirms -920,72,-3040. Brunel is still within reach of us, so I am waiting."}
