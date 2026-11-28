@@ -1,25 +1,28 @@
 # Journal
-- 03:41 act: {"actions":[{"do":"eat"}],"say":"Jack, midday. Hunger 17, eating a carrot. I hold in sight, not sheltered, and place nothing."}
-- 03:45 act: {"actions":[],"say":"Jack, dusk. Not sheltered; I hold 3 planks and 4 dirt. Galileo, if two viewers name an open cell, I'll place one from here in sight. Otherwise I stay at the chests with the crowd.
-- 03:52 act: {"say":"Jack here, midday. Heading to the cow and chicken pasture by the lake in daylight to hunt, in sight of others where I can.","intent":{"goal":"reach_lake_pasture","program":"travel","arguments"
-- 03:52 act: {"actions":[{"do":"goto","target":{"x":-857,"y":63,"z":-3143}},{"do":"attack","target":"cow"}],"say":"Jack, lake pasture, midday. Going after the cow to the north, in daylight, alone for now."}
-- 03:57 act: {"say":"Jack, sun is low. Walking back to the chests with the group before dark.","intent":{"goal":"return_to_chests_before_dark","program":"travel","arguments":{"target":{"x":-918,"y":71,"z":-3035}},
-- 03:57 act: {"say":"Jack, dusk at the chests. I have 3 planks and no wool, so no shelter of my own. Who has a sealed shelter with room? I will join it and bring my own planks."}
-- 04:21 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Sparrow, afternoon 1195. Hunger 17, health 17, no shelter, 3 jungle planks. Whoever has a named sealed cell with room, say its x,y,z and I w
-- 04:24 act: {"actions":[],"say":"Sparrow, morning 1196. Alive, health 17, hunger 17. Still no sealed cell. Legolas, I am near you, alone in your reach, for melon if you can spare one."}
-- 04:25 act: {"actions":[],"say":"Thank you, Legolas. I will keep the melon for when my hunger is lower, so it is not wasted. Hermione, Shackle, I am not weaker than you; give to the weakest."}
-- 05:06 act: {"say":"Sparrow, midday 1198. I hold 3 jungle planks for the cell -920,72,-3040 once two viewers confirm it open and I can see it. I place nothing until then."}
-- 05:07 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"jungle_planks","count":3}],"say":"Amelia, giving you my 3 jungle planks for the cell -920,72,-3040 as I promised. Please go with Leia and Doc and 
-- 05:07 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"jungle_planks","count":3}]}
-- 05:07 act: {"say":"Amelia, Boudicca and Brunel are still within 2 blocks of you, so the planks stay with me. Step out to me alone when you can, and I will hand them over there."}
-- 05:08 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"jungle_planks","count":3}],"say":"Tesla, correction: my gives to Amelia failed twice, so I still hold the 3 planks. Amelia, I am trying once more 
-- 05:09 say: {"text":"Amelia, the planks are still with me. The crowd is too close for a hand-over. Step away from the others and tell me when you are alone."}
-- 05:09 say: {"text":"Amelia, I will keep the 3 planks until you tell me where they should go. It is getting dark, so I will stay near the chests with the others."}
-- 05:10 say: {"text":"Amelia, I will hold the planks until Leia or Doc confirms -920,72,-3040. Brunel is still within reach of us, so I am waiting."}
-- 05:30 act: {"say":"Jack, midday 1199. Hunger 17, so I hold my beef until 6 or below. Staying at the chests in sight, and I will look for a checked, open cell before dusk."}
-- 05:33 act: {"say":"Jack, midday 1199. Gandalf, Picard and Hermione are named first for food, so I keep my carrots and beef for now. My 3 planks stay for a cell two viewers check. Still looking for one."}
-- 05:37 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-921,"y":72,"z":-3031}},{"do":"place","block":"dirt","at":{"x":-923,"y":72,"z":-3031}},{"do":"place","block":"dirt","at":{"x":-922,"y":72,"z":-3030}}
-- 05:37 act: {"say":"Jack, dusk 1199. My dirt wall was blocked by people standing in the cells, so I am not placing on anyone. I stay still in the crowd at the chests."}
-- 05:40 act: {"say":"Jack, morning 1199. Survived the night in the crowd. I'm going to the lake cow pasture in daylight to hunt, back before dusk.","intent":{"goal":"hunt_lake_cow","program":"travel","arguments":{
-- 05:41 act: {"intent":{"goal":"return_to_chests","program":"travel","arguments":{"target":{"x":-922,"y":71,"z":-3031}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ti
-- 06:14 act: {"say":"Sparrow, dusk 1201, hunger 16. I hold 3 carrots and 3 beef. Anyone hungry who stands alone in my reach and names himself, say so. I place nothing; no cell is confirmed."}
+- 06:19 act: {"intent":{"goal":"deliver_jungle_planks","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3009}}}} Morning 1201 (day). Hunger 16, health 17, holding 3 jungle planks, 3 carrots, 3 beef, 1 chicken. Walking to the checked cell -955,78,-3009 to keep my promise to Crusoe. Eat only at hunger 6 or below.
+- 06:19 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3009}}],"say":"Legolas, thank you, I will keep the melon for when my hunger is lower, so it is not wasted. Sparrow, morning 1201, walking to -955,78,-3009."}
+- 06:19 act: {"say":"Sparrow, morning 1201. I am at the checked cell -955,78,-3009 with my 3 jungle planks. Crusoe, I will place them once you confirm this cell is open, or hand them to you if you step to me alone."}
+- 06:26 act: {"intent":{"goal":"return_to_chests_before_dark","program":"travel","arguments":{"target":{"x":-922,"y":71,"z":-3031}}}} Back at the Stores chests before dark.
+- 06:31 act: {"say":"Sparrow, morning 1202, survived the night at the chests, health 17, hunger 16. Anne, I can be a second viewer for your named cell in my sight. I hold 3 jungle planks for a checked cell too."}
+- 06:32 wait: Crowd at the chests. Leif refused Anne's cell -919,72,-3040; Anne seeks another. Nothing addressed to me. Staying put, in sight of the chests, not sheltered. Hunger 16, so no eating yet.
+- 07:03 act: {"say":"Sparrow, afternoon 1203. I hold 3 beef, 3 carrots and 1 chicken. Data, if you stand alone within my reach and say your name, I will give you food. I still have no confirmed cell for my planks.
+- 07:28 act: {"say":"Sparrow, midday 1205, health 17, hunger 16, at the chests in sight. I hold 3 jungle planks. Anyone who names an exact x,y,z that two viewers see open and walled, I will place them there in you
+- 07:36 act: {"actions":[{"do":"goto","target":{"x":-929,"y":73,"z":-3027}}],"say":"Sparrow, midday 1205. I am going to view -933,74,-3023 from -929,73,-3027 as a second viewer. I place nothing until two viewers s
+- 07:36 act: {"say":"Sparrow, midday 1205, at -929,73,-3027. My view is blocked by players all around me, so I cannot confirm -933,74,-3023 as open or walled. I place nothing."}
+- 08:01 act: {"say":"Sparrow, morning 1206, at -929,73,-3027, health 17.1, hunger 16. I still have no confirmed cell. Frodo sees -932,74,-3024 as open air, so I place nothing there. Name an exact cell that two vie
+- 08:04 act: {"say":"Sparrow, midday 1206, at -929,73,-3027, hunger 16. Orville, thank you. My hunger is not low enough to eat yet, so I will leave your carrot for DocBrown or whoever is weaker."}
+- 08:28 act: {"say":"Sparrow, midday 1208, at -929,73,-3027, health 20-ish, hunger 16. I hold 3 jungle planks. Name one exact x,y,z, and I will survey it as a second viewer. I place only when two viewers confirm i
+- 08:45 act: {"say":"Sparrow, afternoon 1209, at -929,73,-3027. I am a viewer for -932,74,-3024 as Earhart asked. I place nothing. Anyone who can see it: say only open or walled."}
+- 09:17 act: {"say":"Sparrow, midday 1211 at -929,73,-3027, health 17, hunger 16. I hold 3 jungle planks. Name one exact x,y,z that two of you see walled, and I will place them there in daylight."}
+- 09:23 act: {"say":"Sparrow, afternoon 1210, hunger 16, health 17. Hypatia, I am hungry. I will stand alone with you if Boudicca and Han step away, and then I will say my name."}
+- 09:28 act: {"say":"Sparrow, morning 1211, hunger 16, health 17. I have no sealed shelter and only 3 planks and 4 dirt. Shackle, if you name one exact cell, I will check it from beside it and say only what I see.
+- 09:38 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3031}}],"say":"Sparrow, dusk 1211. I have no sealed shelter, so I am going to the crowd at the Stores chests to stay in company. I place nothing
+- 10:33 act: {"actions":[{"do":"note","text":"Sparrow, morning 1214. Handoff written. Lasso's cell -912,71,-3033 is being walled; I will look once it is named."}],"say":"Sparrow, morning 1214, at -922,72,-3031, hu
+- 10:34 act: {"actions":[],"say":"Sparrow, morning 1215, hunger 16, health 17. Tesla, thank you, but I will leave your bread for someone weaker. I keep my food until hunger is 6 or below."}
+- 11:39 act: {"say":"Sparrow, dusk 1217, hunger 16, health 17. I have no sealed cell, so I stay at the chests in the group's sight and do not walk at night. I place nothing."}
+- 11:40 act: {"say":"Hypatia, thank you. My hunger is 16, not low enough to eat yet. Give the porkchop to someone weaker than me."}
+- 11:42 act: {"say":"Rocky, Brunel is hungrier than I am, so give him the rotten flesh. I stay at 16 and will not come. Thank you."}
+- 11:50 act: {"say":"Riker, thank you. My hunger is 16, so give the bread to Chapman or Andy, who are hungrier. I hold still in sight."}
+- 12:02 act: {"say":"Sparrow, midday 1219, hunger 16, health 17. Tesla, you hold 15 jungle planks: name one exact cell, and I will bring my 3 jungle planks there once two viewers confirm it walled. I still place n
+- 12:03 act: {"say":"Sparrow, midday 1219. Tesla and Anne, thank you. My hunger is 16, so keep the bread and melon for Andy and others weaker. I will take food when my hunger is 6 or below."}
+- 13:08 act: {"actions":[],"say":"Sparrow, afternoon 1222, health 17, hunger 16. Gandalf, when you name your walled cell and two of us have viewed it, I will bring my 3 jungle planks beside you. I place nothing be
