@@ -16,3 +16,10 @@
 - 05:09 say: {"text":"Amelia, the planks are still with me. The crowd is too close for a hand-over. Step away from the others and tell me when you are alone."}
 - 05:09 say: {"text":"Amelia, I will keep the 3 planks until you tell me where they should go. It is getting dark, so I will stay near the chests with the others."}
 - 05:10 say: {"text":"Amelia, I will hold the planks until Leia or Doc confirms -920,72,-3040. Brunel is still within reach of us, so I am waiting."}
+- 05:30 act: {"say":"Jack, midday 1199. Hunger 17, so I hold my beef until 6 or below. Staying at the chests in sight, and I will look for a checked, open cell before dusk."}
+- 05:33 act: {"say":"Jack, midday 1199. Gandalf, Picard and Hermione are named first for food, so I keep my carrots and beef for now. My 3 planks stay for a cell two viewers check. Still looking for one."}
+- 05:37 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-921,"y":72,"z":-3031}},{"do":"place","block":"dirt","at":{"x":-923,"y":72,"z":-3031}},{"do":"place","block":"dirt","at":{"x":-922,"y":72,"z":-3030}}
+- 05:37 act: {"say":"Jack, dusk 1199. My dirt wall was blocked by people standing in the cells, so I am not placing on anyone. I stay still in the crowd at the chests."}
+- 05:40 act: {"say":"Jack, morning 1199. Survived the night in the crowd. I'm going to the lake cow pasture in daylight to hunt, back before dusk.","intent":{"goal":"hunt_lake_cow","program":"travel","arguments":{
+- 05:41 act: {"intent":{"goal":"return_to_chests","program":"travel","arguments":{"target":{"x":-922,"y":71,"z":-3031}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ti
+- 06:14 act: {"say":"Sparrow, dusk 1201, hunger 16. I hold 3 carrots and 3 beef. Anyone hungry who stands alone in my reach and names himself, say so. I place nothing; no cell is confirmed."}
